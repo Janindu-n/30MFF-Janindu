@@ -1,0 +1,105 @@
+
+
+  body {
+    font-family: Arial, sans-serif;
+        
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #AC8787;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  
+  #video-section {
+    width: 35%;
+    height: 600px;
+    padding: 20px;
+    background-color: #D3C7C7;
+    border: 1px solid gray;
+    border-radius: 10px;
+  }
+  
+  #links-section {
+    width: 55%;
+    padding: 20px;
+    background-color: #D3C7C7;
+    border: 1px solid gray;
+    border-radius: 10px;
+  }
+  
+  video {
+    width: 100%;
+    justify-self: center;
+  }
+
+  .home_button{
+       top:11%;
+       left:55%;
+       width:100px;
+       height:40px;
+       position: absolute;
+       z-index: 2;
+       background: orange; 
+
+  }
+
+  
+      
+
+      .card {
+        width: 200px;
+        height: 200px;
+        perspective: 1000px;
+        position: relative;
+        margin: 20px auto;
+      }
+
+      .card .face {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        backface-visibility: hidden;
+        transition: all 0.5s ease-in-out;
+      }
+
+      .card .front {
+        background-image: url(path/to/front-image.jpg);
+        background-size: cover;
+        background-position: center;
+      }
+
+      .card .back {
+        background-color: lightgray;
+        transform: rotateY(180deg);
+      }
+
+      .card.flipped .front {
+        transform: rotateY(180deg);
+      }
+
+      .card.flipped .back {
+        transform: rotateY(360deg);
+      }
+
+      .card .back p {
+        margin: 10px;
+      }
+   
+  
+  
+  
