@@ -89,6 +89,11 @@
       .card.flipped .back {
         transform: rotateY(0deg);
       }
+      footer {
+        font-size: 12px;
+        text-align: center;
+      }
+      
 
       .card .front,
       .card .back {
